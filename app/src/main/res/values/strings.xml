@@ -2,4 +2,13 @@
     <string name="app_name">Lab1</string>
     <string name="hello_message">Hello World!</string>
     <string name="ButtonText">I\'m a button</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="loginText">Login</string>
+    <string name="HintText">login name</string>
+
+
+    <string name="CheckBoxText">Mais non!</string>
+    <string name="RadioButtonText">radiocanada</string>
+    <string name="SwitchText">swatch</string>
+    <string name="ImageButtonText">buton</string>
 </resources>
