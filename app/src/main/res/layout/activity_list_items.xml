@@ -29,7 +29,7 @@
         android:text="Switch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/switch1"
+        android:id="@+id/swatch"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         />
@@ -38,7 +38,7 @@
         android:text="CheckBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/checkBox"
+        android:id="@+id/chizzleBizzle"
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
         />

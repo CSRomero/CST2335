@@ -16,6 +16,11 @@
     android:weightSum="1">
 
 
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -26,9 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
-        android:text="Name"
+        android:text="Email"
         android:ems="10"
-        android:id="@+id/editText"
+        android:id="@+id/emailEditText"
         android:hint="@string/HintText"
         />
 
@@ -39,13 +44,21 @@
         />
 
     <EditText
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:inputType="textPassword"
+android:text="Password"
+android:ems="10"
+android:id="@+id/editText4"
+/>
+
+    <Button
+        android:text="Login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:text="Password"
-        android:ems="10"
-        android:id="@+id/editText4"
-        />
+        android:id="@+id/loginButton"
+        app:layout_anchorGravity="center_vertical|right"
+        android:layout_gravity="center_vertical|left" />
 
 
 </LinearLayout>
